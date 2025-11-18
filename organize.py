@@ -184,10 +184,6 @@ if __name__ == '__main__':
             ".service", ".mount", ".target", ".socket", ".timer"
         ),
         "LOGS": (".log", ".err", ".out"),
-        "ANDROID": (
-            ".apk", ".aab", ".apks", ".obb",
-            ".dex", ".aar"
-        ),
         "LINUX_PACKAGES": (
             ".deb", ".rpm", ".apk", ".snap", ".flatpakref", ".flatpakrepo"
         ),
@@ -197,6 +193,8 @@ if __name__ == '__main__':
         "APPLICATIONS": (
             ".exe", ".msi",
             ".bat", ".cmd",
+            ".apk", ".aab", ".apks", ".obb",
+            ".dex", ".aar",
             ".app",
             ".apk", ".aab", ".apks",  # Android installers
             ".snap",
